@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Produto</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="./produtos.html">Ver produtos</a>
+  </nav>
+  <section>
+    <h2>Cadastrar Produto</h2>
+    <form>
+      <input type="text" id="input-nome" placeholder="Nome do produto">
+      <input type="text" id="input-descricao" placeholder="Descrição do produto">
+      <input type="number" id="input-preco" placeholder="Valor do produto">
+      <select id="imageSelect">
+        <option value="">Selecione a imagem do doce</option>
+        <option
+          value="https://chaparadois.com.br/wp-content/uploads/2024/11/Bolo-de-Pistache-Inspirado-em-Confeitarias-Famosas-Receita-Completa.webp">
+          Bolo de Pistache</option>
+        <option value="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/FIVYQFU6J5ND3PYRA6XQHR4NW4.jpg">
+          Bolo de Chocolate</option>
+      </select>
+      <button id="btn-add">Adicionar doce</button>
+      <ul id="listaDoces"></ul>
+    </form>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

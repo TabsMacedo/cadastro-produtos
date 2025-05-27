@@ -1,0 +1,218 @@
+/* General Body Styles - Soft & Warm */
+body {
+  font-family: 'Montserrat', sans-serif; /* A more friendly font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fce4ec; /* Light pink, like cotton candy */
+  color: #5d4037; /* Darker brown for text, like chocolate */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation Bar - Creamy & Inviting */
+nav {
+  background: #fff3e0; /* Creamy yellow, like vanilla cream */
+  color: #a1887f; /* Muted brown */
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Softer shadow */
+}
+
+nav a {
+  color: #a1887f;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: color 0.3s ease-in-out, transform 0.2s ease;
+  font-weight: 600; /* Slightly bolder */
+}
+
+nav a:hover {
+  color: #d84315; /* A pop of orange/red, like candy apple */
+  transform: translateY(-2px);
+}
+
+/* Section Styles (for index.html) - Like a Treat Box */
+section {
+  padding: 40px 25px;
+  max-width: 700px;
+  margin: 2.5rem auto;
+  background: #ffffff; /* Clean white for content */
+  border-radius: 15px; /* Softer, rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* More prominent, soft shadow */
+  text-align: center;
+  border: 2px dashed #ffccbc; /* Playful dashed border, like a pastry box */
+}
+
+section h2 {
+  color: #d84315; /* Candy apple red/orange */
+  margin-bottom: 35px;
+  font-size: 2.4em;
+  font-family: 'Pacifico', cursive; /* A script font for a sweet feel */
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05); /* Subtle text shadow */
+}
+
+section h2::after {
+  content: '🍬'; /* A little candy emoji touch */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  font-size: 0.8em;
+  bottom: -20px; /* Adjust position */
+}
+
+/* Form Styles - Smooth & Delicious */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  padding: 14px 18px;
+  border: 1px solid #ffab91; /* Soft peach border */
+  border-radius: 10px; /* More rounded */
+  font-size: 1.05em;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff8e1; /* Light yellow background */
+  color: #5d4037;
+}
+
+form input[type="text"]::placeholder,
+form input[type="number"]::placeholder {
+  color: #bcaaa4; /* Muted placeholder color */
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+  border-color: #ff8a65; /* Brighter peach on focus */
+  box-shadow: 0 0 10px rgba(255, 138, 101, 0.3); /* Soft, glowing shadow */
+  outline: none;
+}
+
+/* Button Styles - Like a Wrapped Sweet */
+button {
+  background: #ffab91; /* Soft peach */
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 25px; /* Pill shape for a playful look */
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gentle lift */
+}
+
+button:hover {
+  background-color: #ff8a65; /* Darker peach on hover */
+  transform: translateY(-3px); /* More pronounced lift */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles - Organized Treats */
+#listaDoces {
+  list-style: none;
+  padding: 0;
+  margin-top: 35px;
+  text-align: left;
+}
+
+#listaDoces li {
+  background: #ffe0b2; /* Light orange, like shortbread */
+  border: 1px solid #ffcc80; /* Slightly darker border */
+  padding: 18px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  color: #6d4c41; /* Brown text */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07); /* Soft shadow */
+  transition: transform 0.2s ease;
+}
+
+#listaDoces li:hover {
+  transform: translateX(5px); /* Little playful nudge */
+}
+
+/* Container for produtos.html - The Showcase */
+.container {
+  padding: 40px 25px;
+  max-width: 600px;
+  margin: 3.5rem auto;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  flex-grow: 1;
+  border: 2px dashed #ffccbc; /* Consistent dashed border */
+}
+
+.container h1 {
+  color: #d84315;
+  margin-bottom: 35px;
+  font-size: 2.8em;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.container h1::after {
+  content: '🍰'; /* A little cake emoji */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  font-size: 0.8em;
+  bottom: -20px;
+}
+
+/* Product Display Styles - Featured Treat */
+#produto-exibido {
+  margin-top: 30px;
+  text-align: left;
+  padding: 25px;
+  border: 2px solid #ffab91; /* Solid, sweet border */
+  border-radius: 12px;
+  background-color: #fff8e1; /* Light creamy background */
+  color: #4e342e; /* Darker brown text */
+  box-shadow: inset 0 0 10px rgba(255, 171, 145, 0.2); /* Inner soft glow */
+}
+
+#produto-exibido p {
+  margin-bottom: 12px;
+  font-size: 1.15em;
+  line-height: 1.7;
+}
+
+#produto-exibido strong {
+  color: #d84315; /* Emphasize with candy red */
+  font-weight: 700;
+}
+
+#produto-exibido img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* More prominent image shadow */
+  border: 3px solid #ffccbc; /* A subtle border around the image */
+}
+
+/* Google Fonts Import (add this to the top of your style.css) */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&display=swap'); */
