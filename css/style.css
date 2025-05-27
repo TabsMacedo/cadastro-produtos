@@ -103,19 +103,19 @@ button {
   color: #fff;
   padding: 14px 28px;
   border: none;
-  border-radius: 25px; /* Pill shape for a playful look */
+  border-radius: 25px; 
   font-size: 1.2em;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.2s ease, box-shadow 0.3s ease;
   margin-top: 15px;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gentle lift */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 button:hover {
-  background-color: #ff8a65; /* Darker peach on hover */
-  transform: translateY(-3px); /* More pronounced lift */
+  background-color: #ff8a65; 
+  transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -124,7 +124,6 @@ button:active {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* List Styles - Organized Treats */
 #listaDoces {
   list-style: none;
   padding: 0;
@@ -133,8 +132,8 @@ button:active {
 }
 
 #listaDoces li {
-  background: #ffe0b2; /* Light orange, like shortbread */
-  border: 1px solid #ffcc80; /* Slightly darker border */
+  background: #ffe0b2; 
+  border: 1px solid #ffcc80; 
   padding: 18px;
   margin-bottom: 12px;
   border-radius: 10px;
@@ -142,16 +141,15 @@ button:active {
   justify-content: space-between;
   align-items: center;
   font-size: 1em;
-  color: #6d4c41; /* Brown text */
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07); /* Soft shadow */
+  color: #6d4c41;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07); 
   transition: transform 0.2s ease;
 }
 
 #listaDoces li:hover {
-  transform: translateX(5px); /* Little playful nudge */
+  transform: translateX(5px); 
 }
 
-/* Container for produtos.html - The Showcase */
 .container {
   padding: 40px 25px;
   max-width: 600px;
@@ -161,7 +159,7 @@ button:active {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   text-align: center;
   flex-grow: 1;
-  border: 2px dashed #ffccbc; /* Consistent dashed border */
+  border: 2px dashed #ffccbc; 
 }
 
 .container h1 {
@@ -174,7 +172,7 @@ button:active {
 }
 
 .container h1::after {
-  content: '🍰'; /* A little cake emoji */
+  content: '🍰'; 
   position: absolute;
   left: 50%;
   transform: translateX(-50%) translateY(10px);
@@ -182,16 +180,16 @@ button:active {
   bottom: -20px;
 }
 
-/* Product Display Styles - Featured Treat */
+
 #produto-exibido {
   margin-top: 30px;
   text-align: left;
   padding: 25px;
-  border: 2px solid #ffab91; /* Solid, sweet border */
+  border: 2px solid #ffab91;
   border-radius: 12px;
-  background-color: #fff8e1; /* Light creamy background */
-  color: #4e342e; /* Darker brown text */
-  box-shadow: inset 0 0 10px rgba(255, 171, 145, 0.2); /* Inner soft glow */
+  background-color: #fff8e1;
+  color: #4e342e; 
+  box-shadow: inset 0 0 10px rgba(255, 171, 145, 0.2); 
 }
 
 #produto-exibido p {
@@ -201,7 +199,7 @@ button:active {
 }
 
 #produto-exibido strong {
-  color: #d84315; /* Emphasize with candy red */
+  color: #d84315; 
   font-weight: 700;
 }
 
@@ -210,9 +208,7 @@ button:active {
   height: auto;
   border-radius: 10px;
   margin-top: 25px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* More prominent image shadow */
-  border: 3px solid #ffccbc; /* A subtle border around the image */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+  border: 3px solid #ffccbc; 
 }
 
-/* Google Fonts Import (add this to the top of your style.css) */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&display=swap'); */

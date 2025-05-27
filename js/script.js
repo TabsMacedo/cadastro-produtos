@@ -16,16 +16,9 @@ const btnAdd = document.getElementById("btn-add");
 const listaDoces = JSON.parse(localStorage.getItem("produtos")) || [];
 
 
-imageSelect.addEventListener('change', atualizarPreviewImagem);
+
 btnAdd.addEventListener('click', adicionarDoce);
 
-
-function atualizarPreviewImagem() {
-  const preview = document.getElementById("imagePreview");
-  if (preview) {
-    preview.src = imageSelect.value || "";
-  }
-}
 
 function adicionarDoce(event) {
   event.preventDefault();
